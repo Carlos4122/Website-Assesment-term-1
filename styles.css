@@ -1,0 +1,13 @@
+body {
+    background-color: #3377FF;
+}
+
+h1 {
+    color: red;
+}
+
+div#carouselExample {
+    height: 500px;
+    width: 1000px;
+    align-items: center;
+}
