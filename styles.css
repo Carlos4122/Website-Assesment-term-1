@@ -3,11 +3,21 @@ body {
 }
 
 h1 {
-    color: red;
+    color: #c70c0c;
 }
 
 div#carouselExample {
     height: 500px;
     width: 1000px;
-    align-items: center;
+    display: block;
+    margin: 10px auto 10px auto;
+    padding: 7px;
+    background-color: white;
+    border: 1px solid black;
+    box-shadow: 2px 4px 8px black;
+}
+
+div#carousel {
+    height:510px;
+    width: 1010px;
 }
