@@ -3,21 +3,49 @@ body {
 }
 
 h1 {
-    color: #c70c0c;
+    color: #960000;
 }
+
 
 div#carouselExample {
-    height: 500px;
-    width: 1000px;
-    display: block;
-    margin: 10px auto 10px auto;
-    padding: 7px;
-    background-color: white;
-    border: 1px solid black;
-    box-shadow: 2px 4px 8px black;
+    height: auto;
+    width: 800px;
+    border-width: 6px;
+    border-style: double;
+    border-color: #960000;
+    margin: 30px auto 30px auto;
+    align-items: center;
 }
 
-div#carousel {
-    height:510px;
-    width: 1010px;
+div#carousel-inner { 
+    height: 400px;
+    width: 800px;
+    align-items: center;
+}
+
+div#carousel-item {
+    height: 400px;
+    width: 800px;
+    align-items: center;
+}
+
+div#carousel-item {
+    height: 400px;
+    width: 800px;
+    align-items: center;
+}
+div#main-text-1 {
+    color: black;
+}
+
+nav{
+    background-color:white;
+}
+
+nav a {
+    display:block;
+    width: 130px;
+    margin: 10px 0 0 0;
+    padding: 5px;
+    color:#960000;
 }
