@@ -5,6 +5,12 @@ body {
 
 h1 {
     color: #fd372c;
+    font-size:40px;
+}
+
+h2 {
+    color: #fd372c;
+    padding-top: 0px;
 }
 
 
@@ -37,10 +43,12 @@ div#carousel-item {
 div#main-text-1 {
     color: black;
     margin:10px 10px 10px 10px;
+    text-align:left;
+    font-size:20px
 }
 
 nav{
-    background-color:#ffffff;
+    background-color:#fd362ce5;
     color:black;
 }
 
@@ -51,7 +59,7 @@ nav a {
     margin-bottom: 15px;
     padding: 5px;
     color:black;
-    background-color: rgb(175, 173, 173);
+    background-color: rgb(255, 255, 255);
     font-size: 11pt;
     font-weight: bold;
     text-decoration: none;
@@ -61,8 +69,8 @@ nav a {
 }
 
 nav a:hover {
-    color:white;
-    background-color: black;
+    color:#5a91ff;
+    background-color: #fc3f35;
 }
 
 img#rosminilogo{
@@ -70,4 +78,31 @@ img#rosminilogo{
     width:125px;
     margin-bottom: 15px;
     margin-top: 4px
+}
+
+footer {
+    font-weight: bold;
+    text-align: left;
+    font-size:10pt;
+    background-color:#fd362ce5;
+}
+
+nav a#ss:hover {
+    color:#5a91ff;
+    background-color: #fc3f35;
+}
+
+nav a#la:hover {
+    color:#5a91ff;
+    background-color: #fc3f35;
+}
+
+nav a#n:hover {
+    color:#5a91ff;
+    background-color: #fc3f35;
+}
+
+nav a#cu:hover {
+    color:#5a91ff;
+    background-color: #fc3f35;
 }
