@@ -1,5 +1,5 @@
 body {
-    background-color: #3377FF;
+    background-color: rgb(0,84,162);
     text-align: center;
 }
 
@@ -69,12 +69,12 @@ nav a {
 }
 
 nav a:hover {
-    color:#5a91ff;
+    color:rgb(0,84,162);
     background-color: #fc3f35;
 }
 
 img#rosminilogo{
-    height:100px;
+    height:130px;
     width:125px;
     margin-bottom: 15px;
     margin-top: 4px
@@ -88,12 +88,12 @@ footer {
 }
 
 nav a#ss:hover {
-    color:#5a91ff;
+    color:rgb(0,84,162);
     background-color: #fc3f35;
 }
 
 nav a#la:hover {
-    color:#5a91ff;
+    color:rgb(0,84,162);
     background-color: #fc3f35;
 }
 
