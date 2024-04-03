@@ -123,24 +123,12 @@ td#nothing {
 
 td#students {
     align-items:center;
+    margin-left: 50px;
 }
 
-footer#container {
-    display:table;
-}
-
-footer#all {
-    width:80%;
-    margin: 30px auto 30px auto;
-    border: 2px solid black;
-    background-color: white;
-    min-width: 900px;
-}
-
-footer#student {
-    align-items: center;
-}
-
-footer#parents {
-    align-items:right;
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size:15px;
 }
