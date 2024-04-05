@@ -129,6 +129,14 @@ td#students {
 footer{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content:space-evenly;
     font-size:15px;
+}
+
+footer#all{
+    flex-direction: left;
+}
+
+footer#student{
+    flex-direction:center;
 }
