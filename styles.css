@@ -2,7 +2,7 @@ body {
     background-color: rgb(0,84,162);
     text-align: center;
 }
-
+ /*titles*/
 h1 {
     color: rgb(255, 255, 255);
     font-size:40px;
@@ -13,6 +13,14 @@ h2 {
     margin-top: 0px;
 }
 
+img#rosminilogo{
+    height:100px;
+    width:125px;
+    margin-bottom: 15px;
+    margin-top: 4px
+}
+
+/* Carousel */
 
 div#carouselExample {
     height: auto;
@@ -40,13 +48,14 @@ div#carousel-item {
     width: 800px;
     align-items: center;
 }
+/*text for main page*/
 div#main-text-1 {
     color: black;
     margin:10px 10px 10px 10px;
     text-align:left;
     font-size:20px
 }
-
+ /*buttons*/
 nav{
     background-color:rgb(255, 255, 255);
     color:black;
@@ -65,68 +74,24 @@ nav a {
     text-decoration: none;
     text-align: center;
     box-shadow: 2px 4px 6px black;
-
 }
 
+nav a#ss:hover,
+nav a#la:hover,
+nav a#n:hover,
+nav a#cu:hover,
 nav a:hover {
-    color:rgb(219, 219, 219);
+    color:rgb(255,255,255);
     background-color: rgb(0,84,162);
 }
 
-img#rosminilogo{
-    height:100px;
-    width:125px;
-    margin-bottom: 15px;
-    margin-top: 4px
-}
 
+ /*footer*/
 footer {
     font-weight: bold;
     text-align: left;
-    font-size:10pt;
     background-color:rgb(219, 219, 219);
     align-items:center;
-}
-
-nav a#ss:hover {
-    color:rgb(255,255,255);
-    background-color: rgb(0,84,162);
-}
-
-nav a#la:hover {
-    color:rgb(255,255,255);
-    background-color: rgb(0,84,162);
-}
-
-nav a#n:hover {
-    color:rgb(255,255,255);
-    background-color: rgb(0,84,162);
-}
-
-nav a#cu:hover {
-    color:rgb(255,255,255);
-    background-color: rgb(0,84,162);
-}
-
-tr#nothing {
-    color: rgb(219, 219, 219);
-    font-size: 7px
-}
-
-tr#top {
-    font-size:15px
-}
-
-td#nothing {
-    color:rgb(219, 219, 219)
-}
-
-td#students {
-    align-items:center;
-    margin-left: 50px;
-}
-
-footer{
     display: flex;
     flex-direction: row;
     justify-content:space-evenly;
@@ -140,22 +105,10 @@ footer#all{
 footer#student{
     flex-direction:center;
 }
-
+ /*Sports Images*/
 div#grid-container{
     height: 50px;
     width:50px;
-}
-
-div#grid-item{
-    height: auto;
-    width:auto;
-}
-
-.grid-images {
-    height: 400px;
-    width:600px;
-    box-shadow: 3px 6px 10px black;
-    border:solid white 2px;
 }
 
 .grid-container{
@@ -163,7 +116,68 @@ div#grid-item{
     grid-template-columns: repeat(3, 1fr);
 }
 
+div#grid-item{
+    height: auto;
+    width:auto;
+}
+
 .grid-item{
     font-size: 30px;
+    color:black;
+}
+
+.grid-images {
+    height: 425px;
+    width:600px;
+    box-shadow: 3px 6px 10px black;
+    border:solid white 2px;
+}
+/*staff images and names*/
+.staff-images{
+    margin-left:auto;
+    margin-right: auto;
+    border: solid white 2px;
+    justify-content: space-evenly;
+    height: 400px;
+    width:300px;
+    box-shadow: 6px 12px 20px black;
+}
+
+.staff{
+    align-items: center;
+    font-size:25px;
+    color: white;
+}
+
+div#staff-title{
+    font-size: 40px;
+    text-decoration: bold;
+    color:black;
+    text-align: left;
+}
+
+.dte-img{
+    height: 200px;
+    width:150px;
+    border:solid white 2px;
+    box-shadow: 3px 6px 10px black;
+}
+
+div#staff-images{
+    align-items: left;
+}
+
+div#foong,
+div#john,
+div#cooper,
+div#latch,
+div#maggs,
+div#morrogh{
+    display:flex;
+    flex-direction: left;
+}
+
+div#names{
+    font-size:20px;
     color:black;
 }
